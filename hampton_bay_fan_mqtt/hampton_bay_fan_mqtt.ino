@@ -4,11 +4,11 @@
 #include <PubSubClient.h>
 
 // Configure wifi settings
-#define WIFI_SSID "your_wifi_ssid"
-#define WIFI_PASS "your_wifi_password"
+#define WIFI_SSID "iot"
+#define WIFI_PASS "datiliot!"
 
 // Configure MQTT broker settings
-#define MQTT_HOST "192.168.1.0"
+#define MQTT_HOST "172.16.1.20"
 #define MQTT_PORT 1883
 #define MQTT_USER ""
 #define MQTT_PASS ""

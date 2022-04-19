@@ -6,6 +6,14 @@ ESP8266 project enabling MQTT control for a Hampton Bay fan with a wireless rece
 This will also monitor for Hampton Bay RF signals so the state will stay in sync even if the original remote is used to control the fan.
 
 Fan control is not limited to a single dip switch setting, so up to 16 fans can be controlled with one ESP8266.
+1.GND 
+2.VCC
+3.GDO0 
+4.CSN
+5.SCLK 
+6.SI
+7.SO 
+8.GDO2
 
 ## Dependencies
 This project uses the following libraries that are available through the Arduino IDE
