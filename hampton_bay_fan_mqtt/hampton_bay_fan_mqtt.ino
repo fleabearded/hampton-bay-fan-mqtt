@@ -37,7 +37,7 @@
 
 // Set CC1101 frequency
 // 303.631 determined from FAN-9T remote tramsmissions
-#define FREQUENCY     303.631
+#define FREQUENCY    315
 
 // RC-switch settings
 #define RF_PROTOCOL 6
@@ -238,7 +238,7 @@ void reconnect() {
 }
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
 
   // initialize fan struct
   for(int i=0; i<16; i++) {
