@@ -37,7 +37,7 @@
 
 // Set CC1101 frequency
 // 303.631 determined from FAN-9T remote tramsmissions
-#define FREQUENCY    315
+#define FREQUENCY    303.875
 
 // RC-switch settings
 #define RF_PROTOCOL 6
